@@ -3,10 +3,10 @@ Name: Xa
 Version: 0.0.1-180
 Architecture: iphoneos-arm
 Filename: ./debs/xa.deb
-MD5sum:bedadb41bca4fdf730e920ea8a053e61
-SHA1:fda8b6779b9153408f61eb7a88ade4614a9c65ff
-SHA256:4bbb687dc0e842d7520143e60ac578634ea8c1c2f795a9b8e0005be7e371867e
-Size:769138
+MD5sum:2afb8fd26cdc675579e205721e63bc65
+SHA1:4ccdffdba4b60a32e14cf306ddff46957a9546a2
+SHA256:e189629a50543c3aed87db6fa435451c7da131e4ce15a85acfff662e1db6a0b9
+Size:769152
 Description: File Xả Bàn Chải 369
 Section: Tweaks
 Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
