@@ -1,0 +1,15 @@
+Package: com.banchai369.xa
+Name: Xa
+Version: 0.0.1-180
+Architecture: iphoneos-arm
+Filename: ./debs/xa.deb
+MD5sum:bedadb41bca4fdf730e920ea8a053e61
+SHA1:fda8b6779b9153408f61eb7a88ade4614a9c65ff
+SHA256:4bbb687dc0e842d7520143e60ac578634ea8c1c2f795a9b8e0005be7e371867e
+Size:769138
+Description: File Xả Bàn Chải 369
+Section: Tweaks
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+Maintainer: banchai369
+Author: banchai369
+Installed-Size: 1844
