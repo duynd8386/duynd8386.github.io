@@ -13,3 +13,19 @@ Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
 Maintainer: banchai369
 Author: banchai369
 Installed-Size: 1844
+
+Package: com.banchai369.369
+Name: 369
+Version: 0.0.1-180
+Architecture: iphoneos-arm
+Filename: ./debs/369.deb
+MD5sum:cb6e292c425f55a38ceffb82ba704c03
+SHA1:1636d016a4c0004719e8485884ffa52e928a63e0
+SHA256:6694ddfd67cb2760bd075a356bcb451fd5c06ff3ca2d3e66686aa1369100864e
+Size:769128
+Description: File Xả Bàn Chải 369
+Section: Tweaks
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+Maintainer: banchai369
+Author: banchai369
+Installed-Size: 1844
