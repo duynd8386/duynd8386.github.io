@@ -1,31 +1,66 @@
-Package: com.banchai369.xa
-Name: Xa
-Version: 0.0.1-180
+Package: com.duynd9999.substitute
 Architecture: iphoneos-arm
-Filename: ./debs/xa.deb
-MD5sum:2afb8fd26cdc675579e205721e63bc65
-SHA1:4ccdffdba4b60a32e14cf306ddff46957a9546a2
-SHA256:e189629a50543c3aed87db6fa435451c7da131e4ce15a85acfff662e1db6a0b9
-Size:769152
-Description: File Xả Bàn Chải 369
-Section: Tweaks
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
-Maintainer: banchai369
-Author: banchai369
-Installed-Size: 1844
+Maintainer: Sam Bingner
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.duynd9999.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Section: System
+Priority: optional
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Version: 2.3.2+2.g3e9b535
+Filename: ./debs/substitute.deb
+MD5sum:f308cb77244163216330498520179c18
+SHA1:06e4e748af701e94db64b0c66a2839340e0aa046
+SHA256:b66a614bd41719413b9d061eba9f787f4d1e0bce911ecf77d008caa27a9b109d
+Size:7722900
+Installed-Size: 27512
 
-Package: com.banchai369.369
-Name: 369
-Version: 0.0.1-180
+
+Package: com.duynd9999.safemode
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Description: safe mode safety extension (safe)
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Depends: mobilesubstrate (>= 0.9.3367+38)
 Architecture: iphoneos-arm
-Filename: ./debs/369.deb
-MD5sum:cb6e292c425f55a38ceffb82ba704c03
-SHA1:1636d016a4c0004719e8485884ffa52e928a63e0
-SHA256:6694ddfd67cb2760bd075a356bcb451fd5c06ff3ca2d3e66686aa1369100864e
-Size:769128
-Description: File Xả Bàn Chải 369
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Priority: optional
 Section: Tweaks
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
-Maintainer: banchai369
-Author: banchai369
-Installed-Size: 1844
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Version: 0.9.6005
+Filename: ./debs/safemode.deb
+MD5sum:bbe64ed68972c00bb5a7d34b320333f2
+SHA1:972eeefa61a5dd5a05b9fed8df0089ae0abe3434
+SHA256:f3c44796a0bcab61dc729eee70761ea58f062ca033cd2cc84a45110185d12cbe
+Size:16712
+Installed-Size: 144
+
+
+Package: com.duynd9999.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Name: RocketBootstrap
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.10~beta1
+Filename: ./debs/rocketbootstrap.deb
+MD5sum:7c6a35d8fdd7503da275ead870273797
+SHA1:4354b6cd38bbd30b74ca1d28c18d7137740873fc
+SHA256:e67ef653da287f2ae94fd5a839d1319de66f37c4461045e4825aac8aa34467b0
+Size:38480
+Installed-Size: 596
+
+
