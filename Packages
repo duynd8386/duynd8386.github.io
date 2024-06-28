@@ -14,10 +14,10 @@ Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
 Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
 Version: 2.3.2+2.g3e9b535
 Filename: ./debs/substitute.deb
-MD5sum:f308cb77244163216330498520179c18
-SHA1:06e4e748af701e94db64b0c66a2839340e0aa046
-SHA256:b66a614bd41719413b9d061eba9f787f4d1e0bce911ecf77d008caa27a9b109d
-Size:7722900
+MD5sum:d91d194c6cf05c0d3c36788a60017274
+SHA1:1435c2dc80bf47d5c0b23ea264dad22d9301b906
+SHA256:ae4fca21af1a5e025ae758994c97b86d12a31b6498bd78932192c36da3de91ec
+Size:7717332
 Installed-Size: 27512
 
 
@@ -35,10 +35,10 @@ Conflicts: safe-mode-fixer-ios7
 Replaces: safe-mode-fixer-ios7
 Version: 0.9.6005
 Filename: ./debs/safemode.deb
-MD5sum:bbe64ed68972c00bb5a7d34b320333f2
-SHA1:972eeefa61a5dd5a05b9fed8df0089ae0abe3434
-SHA256:f3c44796a0bcab61dc729eee70761ea58f062ca033cd2cc84a45110185d12cbe
-Size:16712
+MD5sum:d70cfed779bd5834e6fe4378006d296c
+SHA1:5435c0b4d4cee6ddc5c03016d6d99c42c2ea553334
+SHA256:0abceec07f36c27a0d3152516392b16bf33c542c08565bdba041c5fa83d6049ce
+Size:16696
 Installed-Size: 144
 
 Package: com.duynd9999.rocketbootstrap
@@ -56,10 +56,10 @@ dev: rpetrich
 Tag: purpose::extension, role::developer
 Version: 1.0.10~beta1
 Filename: ./debs/rocketbootstrap.deb
-MD5sum:7c6a35d8fdd7503da275ead870273797
-SHA1:4354b6cd38bbd30b74ca1d28c18d7137740873fc
-SHA256:e67ef653da287f2ae94fd5a839d1319de66f37c4461045e4825aac8aa34467b0
-Size:38480
+MD5sum:55aed1b1ff9024fd46fad8fe93eeab58
+SHA1:b7c3604f64b82c32290a98474177b2e0809db0c6
+SHA256:12936f2da2be5c2f490b05606aba4a9128f5f06d60ce5b10d2e1c73d4a220b5a
+Size:38464
 Installed-Size: 596
 
 Package: com.duynd9999.cydia
