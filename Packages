@@ -14,9 +14,9 @@ Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
 Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
 Version: 2.3.2+2.g3e9b535
 Filename: ./debs/substitute.deb
-MD5sum:d91d194c6cf05c0d3c36788a60017274
-SHA1:1435c2dc80bf47d5c0b23ea264dad22d9301b906
-SHA256:ae4fca21af1a5e025ae758994c97b86d12a31b6498bd78932192c36da3de91ec
+MD5sum:6fac6b76163456bdef937f1be56c1aee
+SHA1:6b71cbe62473cb8ad185d36062be5f0445d0924d
+SHA256:ceb4bd1691c33ea3257cc5f348da45a1d2b085c0aad2aea68bab322b580c8adc
 Size:7714448
 Installed-Size: 27512
 
@@ -35,9 +35,9 @@ Conflicts: safe-mode-fixer-ios7
 Replaces: safe-mode-fixer-ios7
 Version: 0.9.6005
 Filename: ./debs/safemode.deb
-MD5sum:d70cfed779bd5834e6fe4378006d296c
-SHA1:5435c0b4d4cee6ddc5c03016d6d99c42c2ea553334
-SHA256:0abceec07f36c27a0d3152516392b16bf33c542c08565bdba041c5fa83d6049ce
+MD5sum:76008a5871f0b52f398a67027fcd6f34
+SHA1:874e84ad90c212eecad7674449ec80dcbd529dce
+SHA256:64a69255d3a42939d54026da1ebec08d9906f8086c561f69df43d91be4338cb6
 Size:16692
 Installed-Size: 144
 
@@ -56,9 +56,9 @@ dev: rpetrich
 Tag: purpose::extension, role::developer
 Version: 1.0.10~beta1
 Filename: ./debs/rocketbootstrap.deb
-MD5sum:55aed1b1ff9024fd46fad8fe93eeab58
-SHA1:b7c3604f64b82c32290a98474177b2e0809db0c6
-SHA256:12936f2da2be5c2f490b05606aba4a9128f5f06d60ce5b10d2e1c73d4a220b5a
+MD5sum:1e823ef8e7167e3ee7e36004de3e5554
+SHA1:6dbdbe35a49e6c1e219e8316e46e8e56cbadc34f
+SHA256:c2d690fef6dbc183543e87a52dd50c3e1b4d10a7fff6c0f943bb539797e63852
 Size:38436
 Installed-Size: 596
 
