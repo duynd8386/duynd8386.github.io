@@ -1,8 +1,8 @@
-Package: com.duynd9999.substitute
+Package: com.duynd8386.substitute
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
-Depends: firmware (>= 8.0), cy+cpu.arm64, com.duynd9999.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.duynd8386.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
 Breaks: com.saurik.substrate.safemode (<<0.9.6004)
 Section: System
 Priority: optional
@@ -17,11 +17,11 @@ Filename: ./debs/substitute.deb
 MD5sum:d91d194c6cf05c0d3c36788a60017274
 SHA1:1435c2dc80bf47d5c0b23ea264dad22d9301b906
 SHA256:ae4fca21af1a5e025ae758994c97b86d12a31b6498bd78932192c36da3de91ec
-Size:7717332
+Size:7714448
 Installed-Size: 27512
 
 
-Package: com.duynd9999.safemode
+Package: com.duynd8386.safemode
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
 Description: safe mode safety extension (safe)
@@ -38,10 +38,10 @@ Filename: ./debs/safemode.deb
 MD5sum:d70cfed779bd5834e6fe4378006d296c
 SHA1:5435c0b4d4cee6ddc5c03016d6d99c42c2ea553334
 SHA256:0abceec07f36c27a0d3152516392b16bf33c542c08565bdba041c5fa83d6049ce
-Size:16696
+Size:16692
 Installed-Size: 144
 
-Package: com.duynd9999.rocketbootstrap
+Package: com.duynd8386.rocketbootstrap
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
 Name: RocketBootstrap
 Architecture: iphoneos-arm
@@ -59,30 +59,6 @@ Filename: ./debs/rocketbootstrap.deb
 MD5sum:55aed1b1ff9024fd46fad8fe93eeab58
 SHA1:b7c3604f64b82c32290a98474177b2e0809db0c6
 SHA256:12936f2da2be5c2f490b05606aba4a9128f5f06d60ce5b10d2e1c73d4a220b5a
-Size:38464
+Size:38436
 Installed-Size: 596
-
-Package: com.duynd9999.cydia
-Priority: important
-Section: Packaging
-Maintainer: Procursus Team <support@procurs.us>
-Architecture: iphoneos-arm
-Version: 1.1.36-4
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, firmware (>= 14.0)
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=12.0)
-Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Description: graphical iPhone front-end for APT. This version is fixed for iOS 15+
-Name: Cydia Installer
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Tag: purpose::uikit, role::enduser
-Filename: ./debs/cydia.deb
-MD5sum:074ac24b533bbff8488020774c17c72c
-SHA1:1d0c130f0635ff9a4a2b666481197c87c5d0be4a
-SHA256:921153dd23ebe172d69f018dcbb6bc9ea69a9bc0d733c7d3d7ab8816b374f3a5
-Size:1245060
-Installed-Size: 6496
 
