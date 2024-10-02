@@ -14,16 +14,16 @@ Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
 Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
 Version: 2.3.2+2.g3e9b535
 Filename: ./debs/substitute.deb
-MD5sum:6fac6b76163456bdef937f1be56c1aee
-SHA1:6b71cbe62473cb8ad185d36062be5f0445d0924d
-SHA256:ceb4bd1691c33ea3257cc5f348da45a1d2b085c0aad2aea68bab322b580c8adc
-Size:7714448
+MD5sum:95ed7fdd9be0e5c8472fcc2ac786bdb8
+SHA1:fd4d6d3244b7d76555b2e049de933a24765f7ca7
+SHA256:154caf4719f506286ca3bb284ce9abde759ea7d5c11c4fa1bf7625a59cd8a415
+Size:7713684
 Installed-Size: 27512
 
 
 Package: com.duynd8386.safemode
 Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Substrate Safe Mode
+Name: Safe Mode
 Description: safe mode safety extension (safe)
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Depends: mobilesubstrate (>= 0.9.3367+38)
